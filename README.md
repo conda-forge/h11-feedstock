@@ -5,9 +5,13 @@ Home: https://github.com/python-hyper/h11
 
 Package license: MIT
 
-Feedstock license: BSD-3-Clause
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/h11-feedstock/blob/master/LICENSE.txt)
 
 Summary: A pure-Python HTTP/1.1 protocol library.
+
+Development: https://github.com/python-hyper/h11
+
+Documentation: https://h11.readthedocs.io/en/latest/
 
 h11 is an HTTP/1.1 protocol library written in Python, heavily inspired by
 [hyper-h2](https://hyper-h2.readthedocs.io/en/stable/).
