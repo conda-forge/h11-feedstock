@@ -1,5 +1,5 @@
 {% set name = "h11" %}
-{% set version = "0.13.0" %}
+{% set version = "0.14.0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,11 +7,11 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: 70813c1135087a248a4d38cc0e1a0181ffab2188141a93eaf567940c3957ff06
+  sha256: 8f19fbbe99e72420ff35c00b27a34cb9937e902a8b810e2c88300c6f0a3b699d
 
 build:
   noarch: python
-  number: 1
+  number: 0
   script: {{ PYTHON }} -m pip install . -vv
 
 requirements:
